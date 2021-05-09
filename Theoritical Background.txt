@@ -1,0 +1,15 @@
+﻿
+==LINQ==================================================================================
+- stands for Language Integrated Query
+- works on Collections like List, Array
+- similar to MySQL except that MySQL works with database and LINQ works with Collections
+
+==3 Basic Operations===================================================================
+1. Get the Source (from <item> in <source>)
+2. Create the Query (where <condition>)
+3. Execute the Query (select <properties/item>)
+
+NOTE: 
+1. The query is not executed untill you use the variable (Enumerable) somewhere
+2. We cannot implement LINQ Query on a Collection that doesnot implement IEnumerable
+3. IEnumerable allow us to use ForEach in a collection/Object
